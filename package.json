@@ -2,7 +2,7 @@
   "name": "sha512",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "sha512.js",
   "directories": {
     "test": "test"
   },
@@ -17,5 +17,8 @@
     "keywords"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "terst": "^0.1.0"
+  }
 }
