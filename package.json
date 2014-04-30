@@ -2,7 +2,7 @@
   "name": "sha512",
   "version": "0.0.0",
   "description": "",
-  "main": "sha512.js",
+  "main": "./lib/sha512.js",
   "directories": {
     "test": "test"
   },

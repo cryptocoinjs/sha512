@@ -9,7 +9,7 @@ describe('sha512', function() {
     it('should produce the correct result', function() {
       testVectors.forEach(function(v) {
         var out = sha512(v[0])
-        EQ (out.toString('hex'), v[1])
+        EQ (out.toString(), v[1])
       })
     })
   })
