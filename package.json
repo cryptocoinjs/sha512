@@ -19,6 +19,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "terst": "^0.1.0"
+    "terst": "^0.1.0",
+    "mocha": "^1.18.2",
+    "mochify": "^0.8.2"
   }
 }
