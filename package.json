@@ -1,6 +1,6 @@
 {
   "name": "sha512",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "SHA 512 secure hashing algorithm",
   "main": "./lib/index.js",
   "scripts": {
@@ -21,8 +21,11 @@
   "author": "",
   "license": "BSD3",
   "devDependencies": {
-    "terst": "^0.1.0",
     "mocha": "^1.18.2",
-    "mochify": "^0.8.2"
+    "mochify": "^0.8.2",
+    "terst": "^0.1.0"
+  },
+  "dependencies": {
+    "buffer": "^6.0.1"
   }
 }
